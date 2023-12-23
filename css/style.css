@@ -1,0 +1,12 @@
+.recipes-list {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 20px 0 20px;
+}
+
+.page-title {
+    text-align: center;
+    padding-bottom: 100px;
+}
