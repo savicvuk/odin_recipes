@@ -1,12 +1,40 @@
+body {
+    background: #BFAB99;
+}
+
 .recipes-list {
+    max-width: 1120px;
+    margin: auto;
     text-align: left;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     padding: 0 20px 0 20px;
+}
+
+.recipe-list-container {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.recipe-link {
+    text-decoration: none;
+}
+
+.recipe-list-image {
+    width: 300px;
 }
 
 .page-title {
     text-align: center;
     padding-bottom: 100px;
+}
+
+.recipe-list-description {
+    color: #424E59;
+}
+
+.recipe-list-title {
+    font-size: 1.5rem;
+    color: #F24C27;
 }
