@@ -26,6 +26,7 @@ body {
 
 .recipe-list-image {
     width: 350px;
+    height: auto;
 }
 
 .page-title {
@@ -76,6 +77,7 @@ body {
 
 .main-recipe-img {
     width: 500px;
+    height: auto;
     margin: auto;
     border-radius: 20px;
 }
